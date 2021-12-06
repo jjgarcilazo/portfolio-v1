@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjgarcilazo/portfolio-v1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjgarcilazo/portfolio-v1/issues"
+  },
+  "homepage": "https://github.com/jjgarcilazo/portfolio-v1#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.1.3"
+  }
+}
